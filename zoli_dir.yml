@@ -1,0 +1,5 @@
+---
+- hosts: webservers
+  tasks:
+        - name: create directory
+          file: path=/home/zoli/ansibleNode state=directory mode=0755
