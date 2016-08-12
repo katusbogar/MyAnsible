@@ -1,5 +1,5 @@
 ---
-- hosts: webservers
+- hosts: server
   tasks:
         - name: pinging servers
           ping:
